@@ -1,0 +1,18 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make the map take the full screen */
+#map {
+    height: 100vh; /* Full viewport height */
+}
+
+/* Optional styling for fullscreen control */
+.leaflet-control-fullscreen {
+    background-color: white;
+    border-radius: 5px;
+}
+
